@@ -13,16 +13,18 @@ session_start();
 <body>
     <?php include 'nav.php'; ?>
     <div class="w3-container">
-        <div class="w3-card-4" style="max-width: 30rem; margin: auto; padding: 2rem;">
+        <div class="w3-card-4" style="max-width: 30rem; margin: auto; padding: 2rem; margin-top:20vh; border-radius:2rem;background-color:#F7D7EE;">
             <form action="#" method="post">
-                <h1>SIGN UP</h1>
-                <label for='username'><span class="material-icons">person</span> username</label>
+                <b>
+                <h1 style="font-family:cursive;margin-left:6rem;"><u>SIGN UP</u></h1>
+                <label for='username'><span class="material-icons">person</span> Username</label>
                 <input name="username" type="text" placeholder="Username" class="w3-input">
-                <label for='passwd'><span class="material-icons">person</span> password</label>
+                <label for='passwd'><span class="material-icons">keyboard</span> Password</label>
                 <input name="passwd" type="password" placeholder="Password" class="w3-input">
-                <label for='conpass'><span class="material-icons">person</span> confirm password</label>
+                <label for='conpass'><span class="material-icons">done</span> Confirm password</label>
                 <input name="conpass" type="password" placeholder="Confirm Password" class='w3-input'>
-                <input type="submit" name="submit" value="Done!" class="w3-button w3-card-4 w3-green w3-hover-black">
+                <input type="submit" name="submit" value="Done!" class="w3-button w3-card-4 w3-green w3-hover-black" style="margin-top:1rem;border-radius:3px;padding:16px;font-size:20px;">
+                </b>
             </form>
         </div>
     </div>
